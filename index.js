@@ -4,7 +4,6 @@ const util = require("util");
 const mime = require("mime");
 const multer = require("multer");
 const app = express();
-const port = 3000;
 
 const vision = require('@google-cloud/vision');
 const client = new vision.ImageAnnotatorClient();
